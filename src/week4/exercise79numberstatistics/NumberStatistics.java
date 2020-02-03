@@ -1,4 +1,5 @@
-package week4.exercise79numberstatisticsNeterminat;
+package week4.exercise79numberstatistics;
+
 public class NumberStatistics {
     private int amountOfNumbers;
     private int sum;
@@ -8,6 +9,7 @@ public class NumberStatistics {
     }
 
     public void addNumber(int number) {
+        sum = sum + number;
         amountOfNumbers = amountOfNumbers + 1;
     }
 
@@ -16,12 +18,11 @@ public class NumberStatistics {
     }
 
     public int sum() {
-        sum=sum;
-    return sum;
+        return sum;
     }
 
     public double average() {
-        return sum() / amountOfNumbers;
+        return (double)sum() / amountOfNumbers;
     }
 
 }

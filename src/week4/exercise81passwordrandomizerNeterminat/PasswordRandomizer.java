@@ -5,6 +5,7 @@ public class PasswordRandomizer {
 
     public PasswordRandomizer(int length) {
         // Format the variable here
+
     }
 
     public String createPassword() {

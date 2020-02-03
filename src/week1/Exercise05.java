@@ -1,6 +1,6 @@
 package week1;
 
-public class Exercise5 {
+public class Exercise05 {
     public static void main(String[] args) {
         int days=365;
         int hours=24;

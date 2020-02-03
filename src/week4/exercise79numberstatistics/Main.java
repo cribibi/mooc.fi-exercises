@@ -1,4 +1,4 @@
-package week4.exercise79numberstatisticsNeterminat;
+package week4.exercise79numberstatistics;
 
 public class Main {
     public static void main(String[] args) {
