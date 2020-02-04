@@ -1,5 +1,7 @@
 package week5.exercise88;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Student pekka = new Student("Pekka Mikkola", "013141590");
