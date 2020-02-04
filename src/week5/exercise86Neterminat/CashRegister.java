@@ -16,6 +16,7 @@ public class CashRegister {
         //    the amount of the sold lunches is incremented by one
         //    the method returns cashGiven - lunch price
         // if not enough money is given, all is returned and nothing else happens
+    return cashGiven;
     }
 
     public double payGourmet(double cashGiven) {
@@ -25,6 +26,7 @@ public class CashRegister {
         //    the amount of the sold lunches is incremented by one
         //    the method returns cashGiven - lunch price
         // if not enough money is given, all is returned and nothing else happens
+    return cashGiven;
     }
 
     public String toString() {

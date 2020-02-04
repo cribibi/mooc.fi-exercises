@@ -1,4 +1,4 @@
-package week4.exercise81passwordrandomizerNeterminat;
+package week4.exercise81passwordrandomizer;
 
 public class Main {
     public static void main(String[] args) {

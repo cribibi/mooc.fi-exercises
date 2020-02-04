@@ -1,4 +1,4 @@
-package week4.exercise82lotteryNeterminat;
+package week4.exercise82lottery;
 
 import java.util.ArrayList;
 

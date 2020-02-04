@@ -1,11 +1,11 @@
-package week4.exercise83hangmanlogicNeterminat;
+package week4.exercise83hangmanlogic;
 
-public class HangmanLogic {
+public class HangmanLogicP1 {
     private String word;
     private String guessedLetters;
     private int numberOfFaults;
 
-    public HangmanLogic(String word) {
+    public HangmanLogicP1(String word) {
         this.word = word.toUpperCase();
         this.guessedLetters = "";
         this.numberOfFaults = 0;
@@ -24,12 +24,14 @@ public class HangmanLogic {
     }
 
     public void guessLetter(String letter) {
-        // program here the functionality for making a guess
+        if (word.contains(letter)==false){
+            numberOfFaults=numberOfFaults+1;
+        }else if (guessedLetters.contains(letter)){
 
-        // if the letter has already been guessed, nothing happens
+        }else {
+            guessedLetters=guessedLetters+letter;
 
-        // it the word does not contains the guessed letter, the number of faults increases
-        // the letter is added among the already guessed letters
+        }
     }
 
     public String hiddenWord() {
