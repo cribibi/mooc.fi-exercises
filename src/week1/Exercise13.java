@@ -1,11 +1,12 @@
 package week1;
 
 import nhlstats.NHLStatistics;
+
 import java.util.Scanner;
 
 public class Exercise13 {
     public static void main(String[] args) {
-        Scanner reader=new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
         System.out.println("Top ten by points");
         NHLStatistics.sortByPoints();
         NHLStatistics.top(10);
@@ -41,8 +42,6 @@ public class Exercise13 {
         NHLStatistics.sortByPenalties();
         NHLStatistics.teamStatistics("ANA");
         System.out.println("--------------");
-
-
 
 
     }

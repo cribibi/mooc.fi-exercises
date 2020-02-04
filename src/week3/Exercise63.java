@@ -16,8 +16,8 @@ public class Exercise63 {
 
     public static int sum(ArrayList<Integer> list) {
         int suma = 0;
-        for (int i = 0; i <list.size() ; i++) {
-            suma+=list.get(i);
+        for (int i = 0; i < list.size(); i++) {
+            suma += list.get(i);
         }
         return suma;
     }

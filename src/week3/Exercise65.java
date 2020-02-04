@@ -14,11 +14,12 @@ public class Exercise65 {
 
         System.out.println("The lengths of the Strings: " + lengths);
     }
+
     public static ArrayList<Integer> lengths(ArrayList<String> list) {
-        ArrayList<Integer> listOfLengths=new ArrayList<>();
-        for (int i = 0; i <list.size(); i++) {
+        ArrayList<Integer> listOfLengths = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
             listOfLengths.add(list.get(i).length());
         }
-    return listOfLengths;
+        return listOfLengths;
     }
 }

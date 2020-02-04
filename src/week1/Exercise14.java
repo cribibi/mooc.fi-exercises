@@ -7,11 +7,11 @@ public class Exercise14 {
         System.out.print("Type a number: ");
         Scanner sc = new Scanner(System.in);
         int nr = sc.nextInt();
-        if (nr>0){
+        if (nr > 0) {
             System.out.println("The number is positive");
-        }else if(nr<0){
+        } else if (nr < 0) {
             System.out.println("The number is not positive");
-        }else{
+        } else {
             System.out.println("The number is zero");
         }
     }

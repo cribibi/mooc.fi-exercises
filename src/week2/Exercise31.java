@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Exercise31 {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("first? ");
-        int first=Integer.parseInt(scanner.nextLine());
+        int first = Integer.parseInt(scanner.nextLine());
         System.out.print("last? ");
-        int last=Integer.parseInt(scanner.nextLine());
+        int last = Integer.parseInt(scanner.nextLine());
 
-        while(first<=last){
+        while (first <= last) {
             System.out.println(first);
-            first=first+1;
+            first = first + 1;
         }
 
     }

@@ -17,14 +17,15 @@ public class Exercise69Palindrom {
     }
 
     public static boolean palindrome(String text) {
-        boolean a=true;
-        for (int i = 0; i < ((text.length()/2)); i++) {
-            if (text.charAt(i) ==text.charAt(text.length()- 1- i)) {
+        boolean a = true;
+        for (int i = 0; i < ((text.length() / 2)); i++) {
+            if (text.charAt(i) == text.charAt(text.length() - 1 - i)) {
                 a = true;
             } else {
                 a = false;
                 break;
+            }
         }
-    }return a;
+        return a;
     }
 }

@@ -9,18 +9,20 @@ public class Menu {
         this.meals = meals;
     }
 
-    public void addMeal(String meal){
-        if (meals.contains(meal)==false){
+    public void addMeal(String meal) {
+        if (meals.contains(meal) == false) {
             meals.add(meal);
         }
     }
-    public void printMeals(){
-        for (int i = 0; i <meals.size() ; i++) {
+
+    public void printMeals() {
+        for (int i = 0; i < meals.size(); i++) {
             System.out.println(meals.get(i));
 
         }
     }
-    public void clearMenu(){
+
+    public void clearMenu() {
         meals.clear();
     }
 

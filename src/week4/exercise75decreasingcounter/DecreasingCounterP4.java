@@ -8,7 +8,7 @@ public class DecreasingCounterP4 {
 
     public DecreasingCounterP4(int valueAtStart) {
         this.value = valueAtStart;
-        initialValue=valueAtStart;
+        initialValue = valueAtStart;
     }
 
 
@@ -22,12 +22,13 @@ public class DecreasingCounterP4 {
         }
 
     }
-    public void reset(){
-        value=0;
+
+    public void reset() {
+        value = 0;
     }
 
-    public void setInitial(){
-        value=initialValue;
+    public void setInitial() {
+        value = initialValue;
 
     }
 

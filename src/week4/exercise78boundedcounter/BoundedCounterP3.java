@@ -1,4 +1,5 @@
 package week4.exercise78boundedcounter;
+
 public class BoundedCounterP3 {
 
     private int upperLimit;
@@ -20,7 +21,6 @@ public class BoundedCounterP3 {
     public int getValue() {
         return value;
     }
-
 
 
     @Override

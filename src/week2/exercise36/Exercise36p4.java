@@ -15,13 +15,13 @@ public class Exercise36p4 {
                 break;
             } else {
                 sum += no;
-                counter+=1;
+                counter += 1;
             }
         }
         System.out.println("Thank you and see you later!");
         System.out.println("The sum is: " + sum);
         System.out.println("How many numbers: " + counter);
-        System.out.println("The average is: " + (double)sum/counter);
+        System.out.println("The average is: " + (double) sum / counter);
     }
 }
 

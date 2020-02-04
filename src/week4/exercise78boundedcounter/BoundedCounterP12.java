@@ -1,4 +1,5 @@
 package week4.exercise78boundedcounter;
+
 public class BoundedCounterP12 {
 
     private int upperLimit;
@@ -29,7 +30,7 @@ public class BoundedCounterP12 {
 
     public int getValue() {
         // write here code that returns the value
-    return 5;
+        return 5;
     }
 }
 

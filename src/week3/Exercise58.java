@@ -13,7 +13,7 @@ public class Exercise58 {
             System.out.print("Type a word: ");
             String text = word.nextLine();
             if (words.contains(text)) {
-                System.out.printf("You typed the word %s twice",text);
+                System.out.printf("You typed the word %s twice", text);
                 break;
             } else {
                 words.add(text);

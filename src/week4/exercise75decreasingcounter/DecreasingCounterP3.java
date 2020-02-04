@@ -19,8 +19,9 @@ public class DecreasingCounterP3 {
 
         // write here the code that decrements the value of counter by one
     }
-    public void reset(){
-        value=0;
+
+    public void reset() {
+        value = 0;
     }
 
     // and here the rest of the methods

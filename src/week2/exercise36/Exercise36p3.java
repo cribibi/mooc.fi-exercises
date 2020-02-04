@@ -15,7 +15,7 @@ public class Exercise36p3 {
                 break;
             } else {
                 sum += no;
-                counter+=1;
+                counter += 1;
             }
         }
         System.out.println("Thank you and see you later!");

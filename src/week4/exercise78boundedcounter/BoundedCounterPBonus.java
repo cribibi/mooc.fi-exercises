@@ -1,4 +1,5 @@
 package week4.exercise78boundedcounter;
+
 public class BoundedCounterPBonus {
 
     private int upperLimit;

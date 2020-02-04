@@ -12,7 +12,7 @@ public class Dice {
     }
 
     public int roll() {
-        int rand = 1+ random.nextInt(numberOfSides);
+        int rand = 1 + random.nextInt(numberOfSides);
         return rand;
     }
 }

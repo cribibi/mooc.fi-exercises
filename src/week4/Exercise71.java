@@ -25,8 +25,8 @@ public class Exercise71 {
     }
 
     static void combine(ArrayList<Integer> first, ArrayList<Integer> second) {
-        for (int i = 0; i <second.size() ; i++) {
-            if (first.contains(second.get(i))==false){
+        for (int i = 0; i < second.size(); i++) {
+            if (first.contains(second.get(i)) == false) {
                 first.add(second.get(i));
             }
 

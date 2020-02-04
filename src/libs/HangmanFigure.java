@@ -8,10 +8,10 @@ import javax.swing.JPanel;
 // DO NOT TOUCH THIS
 public class HangmanFigure extends JPanel {
 
-    private HangmanLogic logic;
+    private HangmanLogicTeacher logic;
     private HangmanUserInterface userInterface;
 
-    HangmanFigure(HangmanLogic logic, HangmanUserInterface ui) {
+    HangmanFigure(HangmanLogicTeacher logic, HangmanUserInterface ui) {
         super();
         setBackground(Color.WHITE);
         this.logic = logic;

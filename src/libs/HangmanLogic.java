@@ -1,8 +1,6 @@
 package libs;
 
 public class HangmanLogic {
-
-    // DO NOT TOUCH THIS
     private String word;
     private String guessedLetters;
     private int numberOfFaults;
@@ -26,32 +24,26 @@ public class HangmanLogic {
     }
 
     public void guessLetter(String letter) {
-        // program here the functionality for making a guess
-        if(!this.guessedLetters.contains(letter)){
-            if(this.word.contains(letter)){
-                this.guessedLetters += letter;
-            } else {
-                this.numberOfFaults++;
-                this.guessedLetters += letter;
-            }
-        }
-        // if the letter has already been guessed, nothing happens
+        if (word.contains(letter)==false){
+            numberOfFaults=numberOfFaults+1;
+        }else if (guessedLetters.contains(letter)){
 
-        // it the word does not contains the guessed letter, number of faults increase
-        // the letter is added among the already guessed letters
+        }else {
+            guessedLetters=guessedLetters+letter;
+
+        }
     }
 
     public String hiddenWord() {
-        if(this.guessedLetters.length() == 0){
-            String buffer ="";
-
-            for(int i=0; i<this.word.length(); i++){
-                buffer +="_";
+        String hiddenWord= new String();
+        for (int j = 0; j <this.word.length() ; j++) {
+            for (int i = 0; i <guessedLetters.length() ; i++) {
+            if (word.charAt(j)==(guessedLetters.charAt(i))){
+                hiddenWord=hiddenWord+word.charAt(j);
+            }else hiddenWord=hiddenWord+"_";
             }
-            return buffer;
-        } else {
-
-            return "_OO_";
         }
+
+        return hiddenWord;
     }
 }

@@ -8,6 +8,6 @@ public class Multiplier {
     }
 
     public int multiply(int otherNumber) {
-        return number*otherNumber;
+        return number * otherNumber;
     }
 }

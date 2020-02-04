@@ -1,11 +1,11 @@
-package week4.exercise83hangmanlogic;
+package week4.exercise83hangmanlogicNeverificat;
 
-public class HangmanLogic {
+public class HangmanLogicP2 {
     private String word;
     private String guessedLetters;
     private int numberOfFaults;
 
-    public HangmanLogic(String word) {
+    public HangmanLogicP2(String word) {
         this.word = word.toUpperCase();
         this.guessedLetters = "";
         this.numberOfFaults = 0;

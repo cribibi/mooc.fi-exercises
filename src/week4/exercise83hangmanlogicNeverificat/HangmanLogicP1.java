@@ -1,4 +1,4 @@
-package week4.exercise83hangmanlogic;
+package week4.exercise83hangmanlogicNeverificat;
 
 public class HangmanLogicP1 {
     private String word;

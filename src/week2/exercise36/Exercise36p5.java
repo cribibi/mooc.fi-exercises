@@ -17,7 +17,7 @@ public class Exercise36p5 {
                 break;
             } else {
                 sum = sum + no;
-                counter =counter + 1;
+                counter = counter + 1;
                 if (no % 2 == 0) {
                     even = even + 1;
 

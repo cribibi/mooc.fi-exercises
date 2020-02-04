@@ -22,7 +22,7 @@ public class NumberStatistics {
     }
 
     public double average() {
-        return (double)sum() / amountOfNumbers;
+        return (double) sum() / amountOfNumbers;
     }
 
 }

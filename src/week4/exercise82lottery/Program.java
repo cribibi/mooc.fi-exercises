@@ -12,4 +12,5 @@ public class Program {
             System.out.print(number + " ");
         }
         System.out.println("");
-    }}
+    }
+}

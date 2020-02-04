@@ -17,9 +17,9 @@ public class MainP4 {
                 break;
             } else {
                 stats.addNumber(no1);
-                if (no1%2==0){
+                if (no1 % 2 == 0) {
                     statsEven.addNumber(no1);
-                }else{
+                } else {
                     statsOdd.addNumber(no1);
                 }
             }

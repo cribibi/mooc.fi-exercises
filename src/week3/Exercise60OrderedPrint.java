@@ -22,10 +22,10 @@ public class Exercise60OrderedPrint {
         printOrdered(words);
     }
 
-    public  static void printOrdered(ArrayList<String> words) {
+    public static void printOrdered(ArrayList<String> words) {
         Collections.sort(words);
         System.out.println("You typed the following words: ");
-        for (String t:words) {
+        for (String t : words) {
             System.out.println(t);
         }
     }

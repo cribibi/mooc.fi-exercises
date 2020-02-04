@@ -13,7 +13,7 @@ public class Exercise26 {
             }
             // DO SOMETHING HERE
             else {
-                sum=sum+read;
+                sum = sum + read;
             }
             System.out.println("Sum now: " + sum);
         }

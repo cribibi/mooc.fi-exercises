@@ -13,7 +13,7 @@ public class DecreasingCounterP1 {
     }
 
     public void decrease() {
-        value=value-1;
+        value = value - 1;
         // write here the code that decrements the value of counter by one
     }
 

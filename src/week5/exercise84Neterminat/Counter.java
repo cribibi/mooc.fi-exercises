@@ -5,7 +5,7 @@ public class Counter {
 //    The counter also has an optional check that prevents the counter from going below 0.
 //    The class has to have the following constructors:
 //
-//public Counter(int startingValue, boolean check)
+        public Counter(int startingValue, boolean check)
 //    creates a new counter with the given value.
 //    The check is on if the parameter given to check was true.
 //    public Counter(int startingValue) creates a new counter with the given value. The check on the new counter should be off.

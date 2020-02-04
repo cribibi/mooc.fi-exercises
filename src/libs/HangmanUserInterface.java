@@ -13,7 +13,7 @@ public class HangmanUserInterface extends JFrame {
         super();
         setTitle("Hangman");
 
-        this.figure = new HangmanFigure(logiikka, this);
+        //this.figure = new HangmanFigure(logiikka, this);
         add(this.figure);
         addKeyListener(new HirsipuuKeyAdapter(logiikka));
 

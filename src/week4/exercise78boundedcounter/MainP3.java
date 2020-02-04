@@ -6,10 +6,10 @@ public class MainP3 {
         BoundedCounterP3 hours = new BoundedCounterP3(23);
 
         int z = 0;
-        while ( z < 1521 ) {
-            System.out.println( hours + ":" + minutes);
+        while (z < 1521) {
+            System.out.println(hours + ":" + minutes);
             minutes.next();
-            if (minutes.getValue()==0){
+            if (minutes.getValue() == 0) {
                 hours.next();
             }
             z++;

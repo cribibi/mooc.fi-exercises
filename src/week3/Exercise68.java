@@ -1,6 +1,8 @@
 package week3;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
 public class Exercise68 {
 
     public static void main(String[] args) {

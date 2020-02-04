@@ -21,12 +21,12 @@ public class Exercise59ReversePrint {
         printReverse(words);
     }
 
-    public static void printReverse(ArrayList<String> words){
+    public static void printReverse(ArrayList<String> words) {
         System.out.println("You typed the following words: ");
-        for (int i = (words.size()-1); i >-1 ; i--) {
+        for (int i = (words.size() - 1); i > -1; i--) {
             System.out.println(words.get(i));
 
         }
-        }
     }
+}
 

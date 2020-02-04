@@ -21,9 +21,9 @@ public class Exercise57Print {
         print(words);
     }
 
-    public static void print(ArrayList<String> words){
+    public static void print(ArrayList<String> words) {
         System.out.println("You typed the following words: ");
-        for (String t:words) {
+        for (String t : words) {
             System.out.println(t);
         }
     }

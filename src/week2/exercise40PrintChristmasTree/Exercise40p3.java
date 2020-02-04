@@ -39,7 +39,7 @@ public class Exercise40p3 {
             i = i + 1;
         }
         for (int j = 0; j < 2; j++) {
-            printWhiteSpaces(((height*2-1)/2)-1);
+            printWhiteSpaces(((height * 2 - 1) / 2) - 1);
             printStars(3);
 
         }

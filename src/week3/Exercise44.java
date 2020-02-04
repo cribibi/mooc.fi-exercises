@@ -2,7 +2,7 @@ package week3;
 
 public class Exercise44 {
     public static void main(String[] args) {
-        int answer =  least(2, 7);
+        int answer = least(2, 7);
         System.out.println("Least: " + answer);
     }
 

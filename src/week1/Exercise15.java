@@ -7,10 +7,10 @@ public class Exercise15 {
         System.out.print("How old are you? ");
         Scanner sc = new Scanner(System.in);
         int nr = sc.nextInt();
-        if (nr<18){
+        if (nr < 18) {
             System.out.println("You have not reached the age of majority yet!");
-        }else {
+        } else {
             System.out.println("You have reached the age of majority!");
         }
-        }
     }
+}
