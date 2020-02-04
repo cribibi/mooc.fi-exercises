@@ -27,6 +27,7 @@ public class Main2 {
         System.out.print("Give search item: ");
         String search = scanner.nextLine();
 
+        System.out.println("Result: ");
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getName().contains(search)) {
                 System.out.println(list.get(i));
