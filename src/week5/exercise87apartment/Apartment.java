@@ -1,4 +1,4 @@
-package week5.exercise87;
+package week5.exercise87apartment;
 
 public class Apartment {
     private int rooms;

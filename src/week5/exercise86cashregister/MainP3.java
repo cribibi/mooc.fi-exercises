@@ -1,23 +1,20 @@
-package week5.exercise86;
+package week5.exercise86cashregister;
 
-public class MainP4 {
+public class MainP3 {
     public static void main(String[] args) {
         CashRegister unicafeExactum = new CashRegister();
-        System.out.println( unicafeExactum );
 
-        LyyraCard cardOfJim = new LyyraCard(2);
+        double theChange = unicafeExactum.payEconomical(10);
+        System.out.println("the change was " + theChange );
 
-        System.out.println("the card balance " + cardOfJim.balance() + " euros");
+        LyyraCard cardOfJim = new LyyraCard(7);
 
         boolean succeeded = unicafeExactum.payGourmet(cardOfJim);
         System.out.println("payment success: " + succeeded);
-
-        unicafeExactum.loadMoneyToCard(cardOfJim, 100);
-
         succeeded = unicafeExactum.payGourmet(cardOfJim);
         System.out.println("payment success: " + succeeded);
-
-        System.out.println("the card balance " + cardOfJim.balance() + " euros");
+        succeeded = unicafeExactum.payEconomical(cardOfJim);
+        System.out.println("payment success: " + succeeded);
 
         System.out.println( unicafeExactum );
     }

@@ -1,4 +1,4 @@
-package week5.exercise86;
+package week5.exercise86cashregister;
 
 public class CashRegister {
     private double cashInRegister;   // the amount of cash in the register

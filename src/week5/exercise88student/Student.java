@@ -1,4 +1,4 @@
-package week5.exercise88;
+package week5.exercise88student;
 
 public class Student {
     String name;

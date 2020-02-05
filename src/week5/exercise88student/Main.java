@@ -1,6 +1,4 @@
-package week5.exercise88;
-
-import java.util.ArrayList;
+package week5.exercise88student;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week5.exercise89;
+package week5.exercise89clockNeterminat;
 
 public class BoundedCounterPBonus {
 

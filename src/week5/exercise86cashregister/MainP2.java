@@ -1,4 +1,4 @@
-package week5.exercise86;
+package week5.exercise86cashregister;
 
 public class MainP2 {
     public static void main(String[] args) {
