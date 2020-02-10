@@ -1,16 +1,14 @@
-package week6.exercise95MoneyNeterminat;
+package week6.exercise95moneyNeterminat;
 
 public class Money {
     private final int euros;
     private final int cents;
 
     public Money(int euros, int cents) {
-
         if (cents > 99) {
             euros += cents / 100;
             cents %= 100;
         }
-
         this.euros = euros;
         this.cents = cents;
     }
@@ -31,9 +29,10 @@ public class Money {
         return euros + "." + zero + cents + "e";
     }
 
-//    public Money plus(Money added){
-//
-//
-//    return ;
-//    }
+    public Money plus(Money added){
+        Money c=new Money(0, 0);
+        c=added;
+
+    return c;
+    }
 }
