@@ -1,4 +1,4 @@
-package week6.exercise95moneyNeverificat;
+package week6.exercise95money;
 
 public class Money {
     private final int euros;
