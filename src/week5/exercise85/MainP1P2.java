@@ -2,7 +2,7 @@ package week5.exercise85;
 
 import libs.Person;
 
-public class Main {
+public class MainP1P2 {
     public static void main(String[] args) {
         Reformatory eastHelsinkiReformatory = new Reformatory();
 

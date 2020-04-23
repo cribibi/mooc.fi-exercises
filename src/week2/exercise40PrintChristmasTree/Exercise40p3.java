@@ -2,7 +2,7 @@ package week2.exercise40PrintChristmasTree;
 
 public class Exercise40p3 {
     public static void main(String[] args) {
-        printXmassTree(5);
+        printXmassTree(11);
     }
 
     private static void printStars(int amount) {
@@ -41,9 +41,6 @@ public class Exercise40p3 {
         for (int j = 0; j < 2; j++) {
             printWhiteSpaces(((height * 2 - 1) / 2) - 1);
             printStars(3);
-
         }
-
-
     }
 }

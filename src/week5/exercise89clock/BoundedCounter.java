@@ -1,11 +1,11 @@
-package week5.exercise89clockNeterminat;
+package week5.exercise89clock;
 
-public class BoundedCounterPBonus {
+public class BoundedCounter {
 
     private int upperLimit;
     private int value;
 
-    public BoundedCounterPBonus(int upperLimit) {
+    public BoundedCounter(int upperLimit) {
         this.upperLimit = upperLimit;
     }
 

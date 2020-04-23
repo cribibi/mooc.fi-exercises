@@ -14,4 +14,5 @@ public class Product {
     public void printProduct() {
         System.out.println(nameAtStart + ", price " + priceAtStart + ", amount " + amountAtStart);
     }
+
 }
