@@ -1,4 +1,4 @@
-package week5.exercise93personageNeterminat;
+package week5.exercise93personage;
 
 import java.util.Calendar;
 
