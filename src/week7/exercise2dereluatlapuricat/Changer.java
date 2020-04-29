@@ -1,10 +1,10 @@
-package week7.exercise2neinteles;
+package week7.exercise2dereluatlapuricat;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Changer {
-     static List<Change> listaDeChangeuri=new ArrayList<>();
+     private List<Change> listaDeChangeuri=new ArrayList<>();
 
     public Changer() {
     }

@@ -1,12 +1,12 @@
-package week7.exercise3Neterminat;
+package week7.exercise3dereluatlapuricat;
 
 import java.util.Scanner;
 
 public class Reader {
-    public Scanner reader;
+    private Scanner reader;
 
-    public Reader(Scanner reader) {
-        this.reader = reader;
+    public Reader() {
+        this.reader = new Scanner(System.in);
     }
 
     public String readString() {

@@ -1,11 +1,11 @@
-package week7.exercise3Neterminat;
+package week7.exercise3dereluatlapuricat;
 
 public class Calculator {
-    public Reader reader;
-    static int counter;
+    private Reader reader;
+    private int counter;
 
     public Calculator() {
-
+        this.reader=new Reader();
     }
 
     public void start() {
@@ -34,7 +34,7 @@ public class Calculator {
         System.out.print("value2: ");
         int value2 = reader.readInteger();
         counter += 1;
-        System.out.println(value1 + value2);
+        System.out.println("sum of the value "+(value1 + value2));
     }
 
     private void difference() {
@@ -43,7 +43,7 @@ public class Calculator {
         System.out.print("value2: ");
         int value2 = reader.readInteger();
         counter += 1;
-        System.out.println(value1 - value2);
+        System.out.println("difference of the values "+ (value1 - value2));
 
     }
 
@@ -53,7 +53,7 @@ public class Calculator {
         System.out.print("value2: ");
         int value2 = reader.readInteger();
         counter += 1;
-        System.out.println(value1 * value2);
+        System.out.println("product of the values" + (value1 * value2));
     }
 
 
