@@ -15,9 +15,9 @@ public class Main {
         System.out.println("number of faults: " + hangmanLogicBianca.numberOfFaults());
         System.out.println("word now: " + hangmanLogicBianca.hiddenWord2());
 
-
         //aici am eroare, trebuie verificat de ce nu merge
-//        HangmanUserInterface game = new HangmanUserInterface(hangmanLogicBianca);
-//        game.start();
+
+        HangmanUserInterface game = new HangmanUserInterface(hangmanLogicBianca);
+        game.start();
     }
 }

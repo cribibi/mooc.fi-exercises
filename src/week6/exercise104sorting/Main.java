@@ -28,7 +28,6 @@ public class Main {
         System.out.println("---------punct 5------------");
         int[] values5 = {8, 3, 7, 9, 1, 2, 4};
         sort(values5);
-
     }
 
     public static int smallest(int[] array) {
@@ -72,7 +71,6 @@ public class Main {
         array[index2] = c;
     }
 
-    //nu merge inca
     public static void sort(int[] array) {
         for (int i = 0; i <array.length ; i++) {
             System.out.println(Arrays.toString(array));

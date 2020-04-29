@@ -8,8 +8,7 @@ public class GuessingGame {
         this.reader = new Scanner(System.in);
     }
     public void play(int lowerLimit, int upperLimit) {
-        //instructions(upperLimit, lowerlimit);
-        // write the game logic here
+
     }
 
     public static boolean isGreaterThan(int value) {

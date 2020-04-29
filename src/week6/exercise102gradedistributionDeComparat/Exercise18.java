@@ -1,4 +1,4 @@
-package week6.exercise102gradedistributionNeterminat;
+package week6.exercise102gradedistributionDeComparat;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 package week5.exercise84;
 
-public class Test {
+public class Main {
     public static void main(String[] args) {
         Counter c1=new Counter();
         System.out.println("c1: " + c1);

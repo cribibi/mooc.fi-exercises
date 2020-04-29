@@ -1,5 +1,7 @@
 package week6.exercise100nightskyNeterminat;
 
+import java.util.Random;
+
 public class NightSky {
     double density;
     int width;
@@ -22,9 +24,16 @@ public class NightSky {
         this.width=width;
         this.height=height;
     }
-
+//nu e bine, nu e terminat
     public void printLine(){
-        System.out.println("ceva ceva ceva");
+        String optiuni="* ";
+        Random rand=new Random();
+        int densitate=(int) density*width;
+        int x=0;
+        for (int i = 0; i <width ; i++) {
+            int randNr=rand.nextInt(2);
+            System.out.print(optiuni.charAt(randNr));
+        }
 
     }
 //    The line length is determined by the value of the instance
