@@ -1,4 +1,4 @@
-package week7.exercise4Neterminat;
+package week7.exercise4;
 
 public class Thing {
     private String name;

@@ -1,6 +1,6 @@
-package week7.exercise4Neterminat;
+package week7.exercise4;
 
-public class Main7 {
+public class Main6 {
     public static void main(String[] args) {
         Thing book = new Thing("Happiness in Three Steps", 2);
         Thing mobile = new Thing("Nokia 3210", 1);
@@ -17,7 +17,6 @@ public class Main7 {
         container.addSuitcase(tomsCase);
         container.addSuitcase(georgesCase);
 
-        System.out.println("There are the following things in the container suitcases:");
-        container.printThings();
+        System.out.println(container);
     }
 }
