@@ -2,7 +2,7 @@ package week7.exercise7dictionaryNeterminat;
 
 import java.util.ArrayList;
 
-public class Main3neterminat {
+public class Main3 {
     public static void main(String[] args) {
 
         Dictionary wordPairs = new Dictionary();
@@ -13,6 +13,7 @@ public class Main3neterminat {
         ArrayList<String> translations = wordPairs.translationList();
         for (String translation : translations) {
             System.out.println(translation);
+
         }
     }
 }

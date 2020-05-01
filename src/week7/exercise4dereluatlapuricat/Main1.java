@@ -1,4 +1,4 @@
-package week7.exercise4;
+package week7.exercise4dereluatlapuricat;
 
 public class Main1 {
     public static void main(String[] args) {

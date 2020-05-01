@@ -1,4 +1,4 @@
-package week7.exercise4;
+package week7.exercise4dereluatlapuricat;
 
 public class Thing {
     private String name;

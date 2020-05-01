@@ -1,4 +1,4 @@
-package week7.exercise5Nicknames;
+package week7.exercise5nicknames;
 
 import java.util.HashMap;
 import java.util.Map;

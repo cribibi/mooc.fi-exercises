@@ -1,6 +1,6 @@
-package week7.exercise4;
+package week7.exercise4dereluatlapuricat;
 
-public class Main8Neterminat {
+public class Main8decomparatsiverificat {
     public static void main(String[] Container) {
         Container container = new Container(1000);
         addSuitcasesFullOfBricks(container);
@@ -32,7 +32,7 @@ public class Main8Neterminat {
         container.setGreutateContainer(greutateTotala);
     }
 
-    //merge, dar tot nu imi place, inseamna ca add suitcase nu e bine
+    //merge, dar tot nu imi place
     public static void addSuitcasesFullOfBricks3(Container container) {
         for (int i = 1; i < 101; i++) {
             if (container.getGreutateContainer() + i < container.getMaxWeight()) {
