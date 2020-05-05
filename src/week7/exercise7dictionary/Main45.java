@@ -1,4 +1,4 @@
-package week7.exercise7dictionaryNeterminat;
+package week7.exercise7dictionary;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Main45 {
         Scanner reader = new Scanner(System.in);
         Dictionary dict = new Dictionary();
 
-        TextUserInterfaceneterminat ui = new TextUserInterfaceneterminat(reader, dict);
+        TextUserInterface ui = new TextUserInterface(reader, dict);
         ui.start();
 
     }

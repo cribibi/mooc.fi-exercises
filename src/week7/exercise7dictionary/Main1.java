@@ -1,4 +1,4 @@
-package week7.exercise7dictionaryNeterminat;
+package week7.exercise7dictionary;
 
 public class Main1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week7.exercise7dictionaryNeterminat;
+package week7.exercise7dictionary;
 
 import java.util.ArrayList;
 import java.util.HashMap;
