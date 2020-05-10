@@ -6,6 +6,7 @@ public class Team {
     String name;
     int maxSize=16;
     private int number;
+
     ArrayList<Player> list = new ArrayList<>();
 
     public Team(String name) {

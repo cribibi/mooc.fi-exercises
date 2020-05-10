@@ -28,6 +28,14 @@ public class Main {
         System.out.println(owners.get(new RegistrationPlate("FI", "ABC-123")));
         System.out.println(owners.get(new RegistrationPlate("D", "B WQ-431")));
         // if the hashCode hasn't been overwritten, the owners are not found
+
+
+
+        VehicleRegister vr=new VehicleRegister();
+        vr.add(reg1, "bia");
+        vr.add(reg2, "bianca");
+//        vr.printOwners();
+//        vr.printRegistrationPlates();
     }
 
 }
