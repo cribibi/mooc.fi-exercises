@@ -1,4 +1,4 @@
-package week8.exercise9Neterminat;
+package week8.exercise9;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package week6.exercise101libraryNeterminat;
+package week6.exercise101library;
 
 public class MainP4 {
     public static void main(String[] args) {
@@ -9,12 +9,12 @@ public class MainP4 {
         Library.addBook(new Book("NHL Hockey", "Stanley Kupp", 1952));
         Library.addBook(new Book("Battle Axes", "Tom A. Hawk", 1851));
 
-        for (Book book: Library.searchByTitle("CHEESE")) {
+        for (Book book: Library.searchByTitleImproved("CHEESE")) {
             System.out.println(book);
         }
 
         System.out.println("---");
-        for (Book book: Library.searchByPublisher("PENGUIN  ")) {
+        for (Book book: Library.searchByPublisherImproved("PENGUIN  ")) {
             System.out.println(book);
         }
 

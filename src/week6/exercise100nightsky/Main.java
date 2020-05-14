@@ -1,4 +1,4 @@
-package week6.exercise100nightskyNeterminat;
+package week6.exercise100nightsky;
 
 public class Main {
     public static void main(String[] args) {

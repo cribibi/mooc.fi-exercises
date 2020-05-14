@@ -1,4 +1,4 @@
-package week6.exercise100nightskyNeterminat;
+package week6.exercise100nightsky;
 
 import java.util.Random;
 
@@ -27,7 +27,7 @@ public class NightSky {
         this.height = height;
     }
 
-    //nu e bine, nu e terminat
+    //de la Florin Stanciu
     public void printLine() {
         //printam o linie cf cerintei din problema
         //metoda nextDouble() din Random intoarce un numar cuprins intre 0.0 si 1.0 (consideram 0%-100%)

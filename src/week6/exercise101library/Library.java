@@ -1,6 +1,4 @@
-package week6.exercise101libraryNeterminat;
-
-import org.jfree.util.StringUtils;
+package week6.exercise101library;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,9 +51,30 @@ public class Library {
         return found;
     }
 
-    public static boolean included(String word, String searched){
-
-        return true;
+    public static boolean included(String word, String searched) {
+        if (word.toUpperCase().contains(searched.toUpperCase().trim())) {
+            return true;
+        } else return false;
     }
+
+    public ArrayList<Book> searchByTitleImproved(String title) {
+        ArrayList<Book> found = new ArrayList<Book>();
+        for (int i = 0; i < listaCarti.size(); i++) {
+            if (included(listaCarti.get(i).title, title)){
+                found.add(listaCarti.get(i));
+            }
+        }
+        return found;
+    }
+    public ArrayList<Book> searchByPublisherImproved(String publisher) {
+        ArrayList<Book> found = new ArrayList<Book>();
+        for (int i = 0; i < listaCarti.size(); i++) {
+            if (included(listaCarti.get(i).publisher, publisher)) {
+                found.add(listaCarti.get(i));
+            }
+        }
+        return found;
+    }
+
 }
 

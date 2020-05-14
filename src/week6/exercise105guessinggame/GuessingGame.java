@@ -1,4 +1,5 @@
-package week6.exercise105guessinggameNeterminat;
+package week6.exercise105guessinggame;
+
 import java.util.Scanner;
 
 public class GuessingGame {
@@ -7,12 +8,25 @@ public class GuessingGame {
     public GuessingGame() {
         this.reader = new Scanner(System.in);
     }
-    public void play(int lowerLimit, int upperLimit) {
 
+    public void play(int lowerLimit, int upperLimit) {
+        System.out.println("Think of a number between " + lowerLimit + "..." +
+                upperLimit);
+        System.out.println("I promise you that I can guess the number you are thinking of with "+ 7 +" questions." +
+                "\n" +
+                "Next I'll present you with a series of questions. Answer them honestly.");
+        while (lowerLimit != upperLimit) {
+            if (isGreaterThan(average(lowerLimit, upperLimit)) == true) {
+                lowerLimit = average(lowerLimit, upperLimit)+1;
+            } else {
+                upperLimit = average(lowerLimit, upperLimit);
+            }
+        }
+        System.out.println("the number you are thinking of is: " + lowerLimit);
     }
 
     public static boolean isGreaterThan(int value) {
-        System.out.println("Is your number greater than given value? (y/n)");
+        System.out.println("Is your number greater than " + value + " ? (y/n)");
         Scanner scanner = new Scanner(System.in);
         String sc = scanner.nextLine();
         if (sc.equalsIgnoreCase("y")) {
@@ -23,7 +37,8 @@ public class GuessingGame {
     }
 
     public int average(int firstNumber, int secondNumber) {
-        return (firstNumber + secondNumber) / 2;
+
+        return ((firstNumber + secondNumber) / 2);
     }
 
     public void instructions(int lowerLimit, int upperLimit) {

@@ -1,4 +1,4 @@
-package week6.exercise101libraryNeterminat;
+package week6.exercise101library;
 
 import java.util.ArrayList;
 
